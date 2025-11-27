@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@source "../../index.html";
+@source "../**/*.{js,jsx}";
+
+body {
+  @apply min-h-screen font-sans bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+}
+
+#root {
+  @apply min-h-screen;
+}
